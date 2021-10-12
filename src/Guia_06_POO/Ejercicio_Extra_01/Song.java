@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_Extra_01;
+package Guia_06_POO.Ejercicio_Extra_01;
 
 
 public class Song {

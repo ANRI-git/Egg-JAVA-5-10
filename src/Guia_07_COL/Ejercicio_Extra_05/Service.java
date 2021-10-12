@@ -1,4 +1,4 @@
-package Guia_7_COL_Ejercicio_Extra_05;
+package Guia_07_COL.Ejercicio_Extra_05;
 
 import java.util.Collections;
 import java.util.Scanner;

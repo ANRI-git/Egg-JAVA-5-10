@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_07;
+package Guia_06_POO.Ejercicio_07;
 
 public class Persona {
     private String nombre;

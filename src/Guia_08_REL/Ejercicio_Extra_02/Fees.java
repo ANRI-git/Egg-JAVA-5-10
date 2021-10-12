@@ -1,4 +1,4 @@
-package Guia_8_REL_Ejercicio_Extra_02;
+package Guia_08_REL.Ejercicio_Extra_02;
 
 
 public class Fees {

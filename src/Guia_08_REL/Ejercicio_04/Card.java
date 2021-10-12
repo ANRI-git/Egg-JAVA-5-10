@@ -1,4 +1,4 @@
-package Guia_8_REL_Ejercicio_04;
+package Guia_08_REL.Ejercicio_04;
 
 
 public class Card {

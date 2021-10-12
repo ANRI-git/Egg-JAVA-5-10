@@ -1,4 +1,4 @@
-package Guia_9_HER_Ejercicio_Extra_02;
+package Guia_09_HER.Ejercicio_Extra_02;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -12,24 +12,31 @@ public class Service {
 
     public void createBuilding() {
         System.out.println("Creating building: ");
-        String op;
+        Integer op;
         do {
             System.out.println("1. Create Sport center.\n2. Create Office building.\n0. Exit");
-            op = sc.next();
+            while (!sc.hasNextInt()) {
+                System.out.println("Not a number, try again!");
+                sc.next();
+            }
+            op = sc.nextInt();
             switch (op) {
-                case "1":
+                case 1:
                     SportCenter sC = new SportCenter();
                     createSportCenter(sC);
                     break;
-                case "2":
+                case 2:
                     Office of = new Office();
                     createOffice(of);
                     break;
-                case "0":
+                case 0:
                     System.out.println("Exiting!");
                     break;
+                default:
+                    System.out.println("Not a valid option!");
+                    break;
             }
-        } while (!op.equals("0"));
+        } while (!op.equals(0));
     }
 
 //    public void createBuilding() {

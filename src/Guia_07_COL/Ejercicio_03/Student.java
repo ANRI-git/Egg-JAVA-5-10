@@ -1,4 +1,4 @@
-package Guia_7_COL_Ejercicio_03;
+package Guia_07_COL.Ejercicio_03;
 
 import java.util.ArrayList;
 

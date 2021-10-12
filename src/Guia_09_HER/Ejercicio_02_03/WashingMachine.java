@@ -1,4 +1,4 @@
-package Guia_9_HER_Ejercicio_02_03;
+package Guia_09_HER.Ejercicio_02_03;
 
 public class WashingMachine extends HouseholdAppliance {
 

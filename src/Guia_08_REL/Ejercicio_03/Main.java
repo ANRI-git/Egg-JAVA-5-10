@@ -1,4 +1,4 @@
-package Guia_8_REL_Ejercicio_03;
+package Guia_08_REL.Ejercicio_03;
 
 public class Main {
 

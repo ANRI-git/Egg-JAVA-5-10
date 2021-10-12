@@ -1,4 +1,4 @@
-package Guia_5;
+package Guia_05;
 
 import java.util.Arrays;
 import java.util.Random;

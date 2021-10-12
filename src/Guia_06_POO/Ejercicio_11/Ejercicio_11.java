@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_11;
+package Guia_06_POO.Ejercicio_11;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

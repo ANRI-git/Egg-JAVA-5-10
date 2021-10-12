@@ -1,4 +1,4 @@
-package Guia_9_HER_Ejercicio_Extra_01;
+package Guia_09_HER.Ejercicio_Extra_01;
 
 public class Boat {
 

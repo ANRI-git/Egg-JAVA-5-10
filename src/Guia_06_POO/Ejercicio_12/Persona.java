@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_12;
+package Guia_06_POO.Ejercicio_12;
 
 import java.time.LocalDate;
 import java.util.Date;

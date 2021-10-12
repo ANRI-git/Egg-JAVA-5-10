@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_01;
+package Guia_06_POO.Ejercicio_01;
 
 import java.util.Scanner;
 

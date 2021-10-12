@@ -1,4 +1,4 @@
-package Guia_9_HER_Ejercicio_Extra_04;
+package Guia_09_HER.Ejercicio_Extra_04;
 
 public abstract class Person {
     protected String name;

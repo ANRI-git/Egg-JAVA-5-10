@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_06;
+package Guia_06_POO.Ejercicio_06;
 
 public class Cafetera {
     private int capMaxima;

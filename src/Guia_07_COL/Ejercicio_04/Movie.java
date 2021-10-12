@@ -1,4 +1,4 @@
-package Guia_7_COL_Ejercicio_04;
+package Guia_07_COL.Ejercicio_04;
 
 
 public class Movie {

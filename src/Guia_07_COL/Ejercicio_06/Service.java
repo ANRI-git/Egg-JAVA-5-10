@@ -1,4 +1,4 @@
-package Guia_7_COL_Ejercicio_06;
+package Guia_07_COL.Ejercicio_06;
 
 import java.util.HashMap;
 import java.util.Iterator;

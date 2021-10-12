@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_09;
+package Guia_06_POO.Ejercicio_09;
 
 public class Service {
 

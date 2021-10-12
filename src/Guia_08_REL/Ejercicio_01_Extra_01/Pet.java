@@ -1,4 +1,4 @@
-package Guia_8_REL_Ejercicio_01_Extra_01;
+package Guia_08_REL.Ejercicio_01_Extra_01;
 
 public class Pet {
 

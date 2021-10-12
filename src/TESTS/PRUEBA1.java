@@ -2,11 +2,13 @@ package TESTS;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class PRUEBA1 {
 
     public static void main(String[] args) throws InterruptedException {
+        Scanner sc = new Scanner(System.in);
 //        int x1= 2;
 //        int x2= 3;
 //        int y1= 4;

@@ -1,4 +1,4 @@
-package Guia_7_COL_Ejercicio_01_02;
+package Guia_07_COL.Ejercicio_01_02;
 
 import java.util.Collections;
 import java.util.Iterator;

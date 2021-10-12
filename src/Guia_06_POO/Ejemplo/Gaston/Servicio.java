@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejemplo.Gaston;
+package Guia_06_POO.Ejemplo.Gaston;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_05;
+package Guia_06_POO.Ejercicio_05;
 
 public class Cuenta {
     private Integer numeroCuenta;

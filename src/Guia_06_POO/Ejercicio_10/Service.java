@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_10;
+package Guia_06_POO.Ejercicio_10;
 
 import java.util.Arrays;
 import java.util.Random;

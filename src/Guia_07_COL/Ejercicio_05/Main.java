@@ -1,4 +1,4 @@
-package Guia_7_COL_Ejercicio_05;
+package Guia_07_COL.Ejercicio_05;
 
 public class Main {
 

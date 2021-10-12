@@ -1,4 +1,4 @@
-package Guia_8_REL_Ejercicio_02;
+package Guia_08_REL.Ejercicio_02;
 
 import java.util.Iterator;
 import java.util.Scanner;

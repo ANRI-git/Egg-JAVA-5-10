@@ -1,4 +1,4 @@
-package Guia_9_HER_Ejercicio_Extra_01;
+package Guia_09_HER.Ejercicio_Extra_01;
 
 import java.time.Duration;
 import java.time.LocalDate;
@@ -73,6 +73,7 @@ public class Service_MooringRenting {
             System.out.println("Enter your DNI:");
             newRent.setDNI(sc.nextLong());
         } while (sc.match().group().length() < 7 || sc.match().group().length() > 8);
+        newRent.setDNI(sc.nextLong());
         DateTimeFormatter orden = DateTimeFormatter.ofPattern("dd MM yyyy");
         System.out.println("Enter the rental date(dd MM): ");
         newRent.setRentDate(LocalDate.parse(sc.next() + " 2021", orden).atStartOfDay());

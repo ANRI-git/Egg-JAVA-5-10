@@ -1,4 +1,4 @@
-package Guia_5;
+package Guia_05;
 
 public class Ejercicio_18 {
     public static void main(String[] args) {

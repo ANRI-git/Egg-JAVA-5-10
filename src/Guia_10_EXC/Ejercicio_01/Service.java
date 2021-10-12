@@ -1,4 +1,4 @@
-package Guia_6_POO.Ejercicio_07;
+package Guia_10_EXC.Ejercicio_01;
 
 import java.util.Scanner;
 
@@ -21,8 +21,8 @@ public class Service {
                     && !persona.getSexo().equals("O")) {
                 System.out.println("Opción ingresada incorrecta, intente nuevamente:");
             }
-        } while (!persona.getSexo().equals("M") && !persona.getSexo().equals("H")
-                && !persona.getSexo().equals("O"));
+        } while (!persona.getSexo().equals("M") && !persona.getSexo().equals("H") && !persona.getSexo().equals("O"));
+        persona.setSexo(sc.next());
         System.out.println("Peso en kg:");
         persona.setPeso(sc.nextDouble());
         sc.nextLine();
