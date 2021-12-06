@@ -20,12 +20,14 @@ public class Ejemplo03Verificadas {
 
     public static void ingresarDatos() throws ExcepcionPropia, InputMismatchException {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
-        
+
         System.out.println("Ingrese su edad");
         byte edadI = leer.nextByte();
-//        if (edadI < 0) {
-//            throw new ExcepcionPropia(" Como vas a tener menos que 0 años.....");
-//        }
+        if (edadI < 0) {
+            throw new ExcepcionPropia(" Como vas a tener menos que 0 años.....");
+        } else if (edadI < 18) {
+            throw new ExcepcionPropia(" Usted debe ser mayor de edad!");
+        }
 
         System.out.println("ingrese su nombre");
         String nombreI = leer.next();
@@ -33,7 +35,7 @@ public class Ejemplo03Verificadas {
             throw new ExcepcionPropia(" No ingreso un nombre valido - Vas a tener q reingresar el dato");
         }
 
-        System.out.println("LOS DATOS INGRESADIS SON: "
+        System.out.println("LOS DATOS INGRESADOS FUERON: "
                 + "\n Nombre: " + nombreI.toUpperCase()
                 + "\n Edad: " + edadI);
     }

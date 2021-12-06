@@ -41,7 +41,7 @@ public class Ejemplo02Verificadas {
             System.out.println(leer.next());
         } catch (FileNotFoundException y) { // Declaro la Clase a la que podria pertenecer el error
             System.out.println("OUCH QUE CAGADA");
-        } catch (IOException x) {
+        } catch (Exception x) {
             System.out.println("ALGUNA EXC QUE NO TRABAJA IO");
         } finally { // TANTO SI OCURRE O NO, SALE POR ACA
             System.out.println("TERMINO EL PROGRAMA");
